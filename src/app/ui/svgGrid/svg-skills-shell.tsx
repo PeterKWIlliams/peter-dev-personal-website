@@ -17,15 +17,15 @@ const SvgSkillShell: FC<svgSkillShellProps> = ({ svgIcons, title }) => {
   const handleShowMore = () => {
     setShowMore(!showMore);
   };
+  const buttonRef = React.useRef(null);
 
   return (
     <div
-      className={` grid h-auto w-3/4 grid-cols-2 place-items-center space-y-10  duration-700 sm:grid-cols-4 xl:w-3/5  `}
+      className={` grid h-auto w-3/4 grid-cols-2 place-items-center space-y-10  duration-700 ease-in-out sm:grid-cols-4 xl:w-3/5  `}
     >
       <h3 className="col-span-1  text-center text-xl font-bold ">{title}:</h3>
       <div className="col-span-1 sm:col-span-4"></div>
       {svgIcons.map((Icons, index) => {
-        const buttonRef = React.useRef(null);
         return (
           <SVGSkillIcon
             {...Icons}
@@ -40,7 +40,7 @@ const SvgSkillShell: FC<svgSkillShellProps> = ({ svgIcons, title }) => {
         {svgIcons.length > 4 ? (
           <button
             className={cn(
-              "col-span-2 h-auto w-auto justify-self-center duration-[1600ms] sm:col-span-4",
+              "col-span-2 h-auto w-auto justify-self-center duration-[1600ms] ease-in-out sm:col-span-4",
               { "scale-0": !showMore },
             )}
             onClick={handleShowMore}

@@ -19,14 +19,14 @@ export default function Skills() {
             className="col-span-2 justify-self-center"
           />
           <div className="col-span-2 flex flex-col justify-self-center sm:col-span-1">
-            <div className="relative ">
+            <div className="relative">
               <Image src={design} alt="" className="absolute" />
               <h3 className="relative ml-5 mt-5 text-lg font-bold text-black">
                 Design
               </h3>
             </div>
-            <p className="w-52 text-black">
-              From design to product with all CRUD functionality
+            <p className=" w-52 text-black">
+              Create a functional design that meets all requirements
             </p>
           </div>
           <div className="col-span-2 flex flex-col justify-self-center sm:col-span-1">
@@ -36,7 +36,7 @@ export default function Skills() {
                 Development
               </h3>
             </div>
-            <p className="w-52 text-black">
+            <p className=" w-52 text-black">
               From design to product with all CRUD functionality
             </p>
           </div>
@@ -47,9 +47,7 @@ export default function Skills() {
                 Deployment
               </h3>
             </div>
-            <p className="mb-5 w-52 text-black">
-              From design to product with all CRUD functionality
-            </p>
+            <p className="mb-5  w-52 text-black">Put it out into the world </p>
           </div>
           <Image
             src={seperator}

@@ -11,12 +11,11 @@ const FinalWords: FC<FinalWordsProps> = ({}) => {
           FINAL WORDS
         </span>
       </h2>
-      <ul>
-        <li className="inline-flex">
-          If you would like to take a look the source code for this page, here
-          you go:
-          <pre>
-            {" "}
+      <ul className="list-disc space-y-3">
+        <li>
+          <div className="inline-flex flex-wrap whitespace-pre">
+            If you would like to take a look the source code for this page, here
+            you go:{"  "}
             <Link
               className="text-blue-700 underline"
               href={
@@ -25,16 +24,29 @@ const FinalWords: FC<FinalWordsProps> = ({}) => {
             >
               GITHUB LINK
             </Link>
-          </pre>
+          </div>
         </li>
-        <li>If you like the look of my work and would like to get in touch </li>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
+        <li>
+          Currently in the market for a postion if you like what you see would
+          like to see my cv contact at socials or contact below
+        </li>
+
+        <li>
+          <div className="inline-flex flex-wrap whitespace-pre">
+            Inspiration for some of the layout and content taken from:{"  "}
+            <Link
+              className="text-blue-700 underline"
+              href={"https://www.jumr.dev/"}
+            >
+              jumr.dev
+            </Link>
+          </div>
+        </li>
       </ul>
     </section>
   );
 };
 
 export default FinalWords;
+
+// Generic DeepPartial for partial deep updates

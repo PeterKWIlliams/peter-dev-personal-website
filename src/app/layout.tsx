@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="scroll-smooth bg-zinc-300 text-black antialiased scrollbar-none sm:overscroll-none">
-        <main className=" relative inset-0 flex-shrink-0 overflow-auto">
+        <main className="relative inset-0 flex-shrink-0 overflow-auto sm:overscroll-none">
           {children}
         </main>
       </body>

@@ -19,7 +19,7 @@ export default function BookingCalendar() {
       <iframe
         src="https://zcal.co/i/i1tv11V_?embed=1&embedType=iframe"
         loading="lazy"
-        className="border:none;  flex min-h-[876px] min-w-[400px] lg:h-3 "
+        className="border:none;  w-500 h- flex min-h-[876px] min-w-[400px]"
         id="zcal-invite"
       ></iframe>
     ),
@@ -36,9 +36,7 @@ export default function BookingCalendar() {
           GET IN TOUCH
         </span>
       </h2>
-      {chatLength === "mediumChat" ? (
-        <div className="min-h-[500px]">{bookings.mediumChat}</div>
-      ) : null}
+      {chatLength === "mediumChat" ? <div>{bookings.mediumChat}</div> : null}
 
       {chatLength === "notset" ? (
         <div className="flex h-96 w-96 flex-col items-center bg-black ">

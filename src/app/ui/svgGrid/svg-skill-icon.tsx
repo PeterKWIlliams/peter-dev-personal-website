@@ -24,7 +24,7 @@ const SVGSkillIcon: React.FC<IconProps> = ({
         ref={buttonRef}
         className="flex flex-col items-center justify-center space-y-4  "
       >
-        <div className="flex h-full w-full items-center justify-center rounded-lg border-2  border-slate-900 bg-zinc-200 px-4 py-4 shadow-md">
+        <div className="flex h-20 w-20 items-center justify-center rounded-lg border-2 border-slate-900 bg-zinc-200  px-4 py-4 shadow-md md:h-full md:w-full">
           {svg}
         </div>
 

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .text-wrap-balance {
+    text-wrap: balance;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -75,4 +81,8 @@ body {
 .shrink-grow-button-exit-active {
   transform: scale(0);
   transition: transform 700ms ease-in-out;
+}
+
+pre {
+  font-family: inherit;
 }

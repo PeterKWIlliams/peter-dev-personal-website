@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function WelcomeMessage() {
@@ -12,7 +13,7 @@ export default function WelcomeMessage() {
           </p>
         </div>
         <div className="flex space-x-5">
-          <a href="https://github.com/PeterKWIlliams">
+          <Link href="https://github.com/PeterKWIlliams">
             {" "}
             <div className=" rounded border-2 border-purple-950 bg-zinc-400 hover:cursor-pointer hover:bg-purple-400">
               <svg
@@ -28,8 +29,8 @@ export default function WelcomeMessage() {
                 />
               </svg>
             </div>
-          </a>
-          <a href="https://github.com/PeterKWIlliams">
+          </Link>
+          <Link href="https://github.com/PeterKWIlliams">
             {" "}
             <div className="rounded border-2 border-purple-950 bg-zinc-400 hover:cursor-pointer hover:bg-purple-400">
               <svg
@@ -45,8 +46,8 @@ export default function WelcomeMessage() {
                 />
               </svg>
             </div>
-          </a>
-          <a href="https://github.com/PeterKWIlliams">
+          </Link>
+          <Link href="/#get-in-touch">
             {" "}
             <div className="rounded border-2 border-purple-950 bg-zinc-400 hover:cursor-pointer hover:bg-purple-400">
               <svg
@@ -61,8 +62,8 @@ export default function WelcomeMessage() {
                   fill="black"
                 />
               </svg>
-            </div>{" "}
-          </a>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

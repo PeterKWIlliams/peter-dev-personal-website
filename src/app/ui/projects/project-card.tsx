@@ -16,7 +16,7 @@ import Link from "next/link";
 
 export function ProjectCard(props: Project) {
   return (
-    <article className="flex h-full w-full flex-col space-y-6 rounded-lg border-2 border-slate-900 bg-zinc-200 p-6 ">
+    <article className="flex  w-full flex-col space-y-6 rounded-lg border-2 border-slate-900 bg-zinc-200 p-6 ">
       {" "}
       <h4 className="text-lg font-semibold underline">{props.title}</h4>
       <div className="my-2 flex space-x-2">

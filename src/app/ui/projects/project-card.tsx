@@ -1,11 +1,7 @@
-import { cn } from "@/lib/utils";
 import { type IconType } from "react-icons/lib";
 import {
-  SiJavascript,
   SiNextdotjs,
   SiPrisma,
-  SiBootstrap,
-  SiReact,
   SiTailwindcss,
   SiGithub,
   SiTypescript,
@@ -53,26 +49,17 @@ export const projects: Project[] = [
     stackIcons: [SiNextdotjs, SiTypescript, SiPrisma, SiTailwindcss],
     status: "in progress",
   },
-
-  {
-    title: "Language Learning App",
-    githubUrl: "https://github.com/PeterKWIlliams/react_language_app",
-    stackIcons: [SiJavascript, SiReact, SiBootstrap],
-    status: "complete",
-  },
-  {
-    title: "Learning Tracker",
-    githubUrl:
-      "https://github.com/PeterKWIlliams/inventory_management_nextjs_prisma",
-    stackIcons: [SiNextdotjs, SiTypescript, SiTailwindcss],
-    status: "in progress",
-  },
   {
     title: "Twitter simple clone",
     githubUrl:
       "https://github.com/PeterKWIlliams/chirp_twitter_clone_create_t3_nextjs_trpc",
-    url: "https://chirp-twitter-clone-create-t3-nextjs-trpc.vercel.app/",
     stackIcons: [SiNextdotjs, SiTypescript, SiPrisma, SiTailwindcss],
+    status: "in progress",
+  },
+  {
+    title: "Personal Website",
+    githubUrl: "https://github.com/PeterKWIlliams/peter-dev-personal-website",
+    stackIcons: [SiNextdotjs],
     status: "in progress",
   },
 ];

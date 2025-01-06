@@ -8,13 +8,11 @@ const About = () => {
       </h1>
       <div className="mt-20 flex w-3/4  text-lg tracking-wider text-black sm:w-96">
         <p>
-          I&apos;m a junior software developer from Scotland. Enthusiastic about
+          I&apos;m a junior software developer from Scotland, enthusiastic about
           the transformative potential of technology to bring about positive
-          change,especially in relation to ensuring educational
-          equality.I&apos;m eager to learn about all things tech, with a
-          specific focus on mastering software architecture and database feel
-          comfortable in knowing how my computer turns on.design. Hopefully one
-          day i will able to know how my computer turns on.
+          change, especially in relation in reduction educational inequality.
+          I&apos;m eager to learn about all things tech, with a specific focus
+          on software architecture and distributed systems.
         </p>
       </div>
     </div>

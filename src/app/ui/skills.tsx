@@ -26,7 +26,8 @@ export default function Skills() {
               </h3>
             </div>
             <p className=" w-52 text-black">
-              Create a functional design that meets all requirements
+              I have a foundational understanding of database design principles
+              and enjoy reading technical write ups.
             </p>
           </div>
           <div className="col-span-2 flex flex-col justify-self-center sm:col-span-1">
@@ -37,7 +38,8 @@ export default function Skills() {
               </h3>
             </div>
             <p className=" w-52 text-black">
-              From design to product with all CRUD functionality
+              Experience building web applications from the ground up, handling
+              both client-side interactivity and server-side logic.
             </p>
           </div>
           <div className="col-span-2 flex flex-col justify-self-center ">
@@ -47,7 +49,10 @@ export default function Skills() {
                 Deployment
               </h3>
             </div>
-            <p className="mb-5  w-52 text-black">Put it out into the world </p>
+            <p className="mb-5  w-52 text-black">
+              Deployed applications to both GCP and AWS using docker gaining
+              experience in cloud based CI-CD deployment pipelines.
+            </p>
           </div>
           <Image
             src={seperator}
